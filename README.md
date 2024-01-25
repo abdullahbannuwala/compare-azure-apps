@@ -9,7 +9,7 @@ Configuration resource with its own endpoint URL. The code fetches configuration
 This approach assumes that you have separate Azure App Configuration resources for each environment, which is a common practice for managing configurations in a multi-environment setup,
 such as development, testing, staging, and production. Each resource can contain configuration settings specific to its environment, and the code distinguishes between them based on their labels.
 
-# Do the keys follow a certain naming pattern that is corresponding to each environment?
+# Q: Do the keys follow a certain naming pattern that corresponds to each environment?
 In the code examples provided, the keys do not necessarily follow a specific naming pattern to correspond to each environment. Instead, 
 the code associates keys with their respective environments based on the label assigned to each configuration setting in Azure App Configuration.
 
